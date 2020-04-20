@@ -4,6 +4,7 @@
   "description": "A typescript nodejs program that use AWS Transcribe",
   "main": "index.js",
   "scripts": {
+    "start": "tsc && node -r ./dist/dotenv/config.js ./dist/index.js",
     "dev:compile": "tsc -w",
     "dev:start": "nodemon -w ./dist --exec \"node -r ./dist/dotenv/config.js ./dist/index.js\""
   },
