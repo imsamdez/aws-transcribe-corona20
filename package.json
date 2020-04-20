@@ -1,0 +1,38 @@
+{
+  "name": "corona20",
+  "version": "1.0.0",
+  "description": "A typescript nodejs program that use AWS Transcribe",
+  "main": "index.js",
+  "scripts": {
+    "dev:compile": "tsc -w",
+    "dev:start": "nodemon -w ./dist --exec \"node -r ./dist/dotenv/config.js ./dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imsamdez/aws-transcribe-corona20.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imsamdez/aws-transcribe-corona20/issues"
+  },
+  "homepage": "https://github.com/imsamdez/aws-transcribe-corona20#readme",
+  "dependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^13.13.0",
+    "aws-sdk": "^2.658.0",
+    "axios": "^0.19.2",
+    "commander": "^5.0.0",
+    "enquirer": "^2.3.5",
+    "module-alias": "^2.2.2",
+    "ora": "^4.0.3",
+    "parse-filepath": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/parse-filepath": "^1.0.0",
+    "dotenv": "^8.2.0"
+  },
+  "_moduleAliases": {
+    "@Env": "dist/dotenv/config.js"
+  }
+}
