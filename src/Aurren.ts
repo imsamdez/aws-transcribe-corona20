@@ -68,7 +68,7 @@ export default class Aurren {
     const prompt: { audioFile: string } = await Enquirer.prompt({
       type: "select",
       name: "audioFile",
-      message: "Chose an audio file",
+      message: "Choose an audio file",
       choices: this.m_audioFiles.map((f) => f.name),
     });
 
@@ -85,7 +85,7 @@ export default class Aurren {
     const prompt: { languageCode: string } = await Enquirer.prompt({
       type: "select",
       name: "languageCode",
-      message: "Chose the language",
+      message: "Choose the language",
       choices: this.m_confLanguageCode,
     });
 

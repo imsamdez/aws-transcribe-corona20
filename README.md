@@ -3,7 +3,7 @@
 A typescript nodejs program that use AWS Transcribe
 
 <p align="center">
-    <img src="https://i.gyazo.com/9e901e193a730fd9998187e9d55b7506.png">
+    <img src="https://i.gyazo.com/2e30397bbf0b46c2e8fbd2090d2d11b5.png">
 </p>
 
 ## Setup env
