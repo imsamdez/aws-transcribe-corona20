@@ -19,7 +19,7 @@ const spinner = ora("Transcription in progress 🤘");
 export default class Aurren {
   private m_audioFiles = new Array<parser.ParsedPath>();
   private m_confAudioFilesExt = [".mp4"];
-  private m_confAudioFileDir = "records";
+  private m_confAudioFileDir = "audios";
   private m_confLanguageCode = ["es-ES"];
 
   public audioFile: parser.ParsedPath | null = null;
